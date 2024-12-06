@@ -1,4 +1,4 @@
-# Copyright 2019 Google Inc.
+# Copyright 2023 Google Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,5 +30,5 @@ import windows_vc
 
 def generate(env):
   windows_vc.SetMsvcCompilerVersion(env=env,
-                                    version_num='16.0',
-                                    vc_flavor='x64_x86')
+                                    version_num='17.0',
+                                    vc_flavor='x86_x86')
